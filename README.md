@@ -8,11 +8,11 @@
 ![image](https://user-images.githubusercontent.com/97102924/159395329-193f4e04-9873-4adb-9138-06515e5d322b.png)
 
 2. Open `/tagui/src/tagui_parse.php`
-- Add this code in line 25 `$moment_file = fopen('moment.js','r') or die("ERROR - cannot open moment.js" . "\n");`
+- Add this code at line 25: `$moment_file = fopen('moment.js','r') or die("ERROR - cannot open moment.js" . "\n");`
 
 ![image](https://user-images.githubusercontent.com/97102924/159395597-05acf3e7-f53a-49a8-9990-0f7cac0d2ea0.png)
 
-- Add this code in line 75 `while(!feof($moment_file)) {fwrite($output_file,fgets($moment_file));} fclose($moment_file);`
+- Add this code at line 75: `while(!feof($moment_file)) {fwrite($output_file,fgets($moment_file));} fclose($moment_file);`
 
 ![image](https://user-images.githubusercontent.com/97102924/159395740-b588715c-ee96-4d02-8372-745156de481d.png)
 
