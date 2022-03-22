@@ -1,6 +1,6 @@
 <img src="https://1.tilyanpristka.id/images/tP-logo-rounded.png" height="111" align="right">
 
-# Add [moment.js](https://momentjs.com/downloads/moment.min.js) to <img src="https://1.tilyanpristka.id/images/tagui.png" height="45"> TagUI
+# Add [moment.js](https://momentjs.com/downloads/moment.min.js) to <img src="https://1.tilyanpristka.id/images/tagui.png" height="45"> TagUI (Date Formater)
 
 #### How to do that
 1. Add [moment.js](https://momentjs.com/downloads/moment.min.js) to `/tagui/src`
